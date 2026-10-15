@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(.*)$ https://foces.ceconline.edu/ [R=301,L]
+</IfModule>
